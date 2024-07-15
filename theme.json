@@ -1,0 +1,181 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                { "slug": "veci-white", "color": "rgb(255,255,255)" , "name": "Veci White"},
+                { "slug": "veci-gray-100", "color": "rgb(243 244 246)", "name": "Veci Gray 100" },
+                { "slug": "veci-gray-200", "color": "rgb(229 231 235)", "name": "Veci Gray 200" },
+                { "slug": "veci-gray-300", "color": "rgb(209 213 219)", "name": "Veci Gray 300" },
+                { "slug": "veci-gray-400", "color": "rgb(156 163 175)", "name": "Veci Gray 400" },
+                { "slug": "veci-gray-500", "color": "rgb(107 114 128)", "name": "Veci Gray 500" },
+                { "slug": "veci-gray-600", "color": "rgb(75 85 99)", "name": "Veci Gray 600" },
+                { "slug": "veci-gray-700", "color": "rgb(55 65 81)", "name": "Veci Gray 700" },
+                { "slug": "veci-gray-800", "color": "rgb(31 41 55)", "name": "Veci Gray 800" },
+                { "slug": "veci-gray-900", "color": "rgb(17 24 39)", "name": "Veci Gray 900" },
+                { "slug": "veci-primary", "color": "rgb(239 68 68)", "name": "Veci Primary" },
+                { "slug": "veci-accent", "color": "rgb(67 56 202)", "name": "Veci Accent" },
+                { "slug": "veci-success", "color": "rgb(52 211 153)", "name": "Veci Success" },
+                { "slug": "veci-info", "color": "rgb(96 165 250)", "name": "Veci Info" },
+                { "slug": "veci-warning", "color": "rgb(251 146 60)", "name": "Veci Warning" },
+                { "slug": "veci-danger", "color": "rgb(236 72 153)", "name": "Veci Danger" }
+            ],
+            "background": true,
+            "text": true,
+            "link": true,
+            "custom": true,
+            "duotone": [
+                {"slug": "veci-pink-sunset" , "colors": ["#11245e" ,"#dc4379"] , "name": "Veci Pink Sunset"}
+            ],
+            "defaultGradients": false,
+            "gradients": [
+                {
+                    "slug": "veci-summer-dog",
+                    "name": "Veci Summer Dog",
+                    "gradient": "linear-gradient(#a8ff78, #78ffd6)"
+                }
+            ]
+        },
+        "blocks": {
+            "core/site-title": {
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        { "slug": "veci-primary" , "color": "#ef4444" , "name": "Veci Primary"}
+                    ],
+                    "link": true
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Pacifico, sans-serif",
+                            "slug": "veci-pacifico",
+                            "name": "Veci Pacifico"
+                        }
+                    ]
+                }
+            },
+            "core/cover": {
+                "color": {
+                    "duotone": [],
+                    "customDuotone": false,
+                    "gradients": [],
+                    "customGradient": false
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
+                }
+            }
+
+            
+        },
+        "border": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Rubik, sans-serif",
+                    "slug": "veci-rubik",
+                    "name": "Veci Rubik"
+                }
+            ],
+            "fontSizes": [
+                {"slug": "small" ,"size": "0.75rem" ,"name": "Small"},
+                {"slug": "medium" ,"size": "1.25rem" ,"name": "Medium"},
+                {"slug": "large" ,"size": "2.25rem" ,"name": "Large"},
+                {"slug": "x-large" ,"size": "3rem" ,"name": "Extra Large"},
+                {"slug": "gigantic" ,"size": "3.75rem" ,"name": "Gigantic"}
+            ],
+            "lineHeight": true,
+            "dropCap": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "letterSpacing": true,
+            "textDecoration": true
+        },
+        "layout": {
+            "contentSize": "800px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ],
+            "blockGap": true
+        }
+    },
+    "styles": {
+        "color": {
+           "text" : "var(--wp--preset--color--veci-gray-700)",
+           "background" : "var(--wp--preset--color--veci-white)"
+        },
+        "elements": {
+            "link" : {
+                "color": {
+                    "text" : "var(--wp--preset--color--veci-primary)"
+                }
+            }
+        },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "gradient" : "var(--wp--preset--gradient--veci-summer-dog)"
+                }
+            },
+            "core/pullquote": {
+                "border": {
+                    "width": "2px",
+                    "radius": "10px",
+                    "style": "solid",
+                    "color": "var(--wp--preset--color--veci-primary)"
+                }
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--veci-pacifico)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--veci-rubik)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
+        },
+        "spacing": {
+            "margin": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "padding": {
+                "top": "0px",
+                "bottom": "0px",
+                "left": "0px",
+                "right": "0px"
+            },
+            "blockGap" : "4rem"
+        }
+    }
+}
